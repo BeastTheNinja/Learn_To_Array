@@ -38,6 +38,7 @@ let myFruits = ['æble', 'pære', 'banan', 'appelsin', 'citron'];
 let myVegetables = ['salat', 'blomkål', 'spidskål', 'agurk'];
 
 
+
 /* opgave 3 splice()
  tilføj mandarin og fersken efter pære i myFruits
  */
@@ -61,9 +62,9 @@ træk blomkål og spidskål ud af arrayen myVegetables
 og ind i en ny array der hedder myCabbage*/
 
 // din kode her...
-
-
-
+console.log(myVegetables);
+myVegetables.slice(2, 0, 'blomkål', 'spidskål');
+let myCabbage = myVegetables.splice(1, 2);
 console.log(myCabbage);
 
 //.........................................................
