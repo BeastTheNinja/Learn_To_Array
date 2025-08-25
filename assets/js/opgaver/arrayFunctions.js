@@ -122,6 +122,8 @@ skriv en kode der kan give os en ny array, udfra myNames, hvor navnet keld ikke 
 */
 let myNames = ['keld', 'søren', 'jens', 'tine', 'keld', 'ib', 'lene', 'keld', 'frederikke', 'line', 'kurt'];
 
+myNames = myNames.filter(name => name !== 'keld');
+console.log(myNames);
 
 //.........................................................
 
