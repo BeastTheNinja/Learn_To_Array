@@ -62,7 +62,6 @@ træk blomkål og spidskål ud af arrayen myVegetables
 og ind i en ny array der hedder myCabbage*/
 
 // din kode her...
-console.log(myVegetables);
 myVegetables.slice(2, 0, 'blomkål', 'spidskål');
 let myCabbage = myVegetables.splice(1, 2);
 console.log(myCabbage);
@@ -74,7 +73,7 @@ console.log(myCabbage);
 
 
 // din kode her...
-
+let myYummies = myFruits.concat(myVegetables);
 
 
 console.log(myYummies);
