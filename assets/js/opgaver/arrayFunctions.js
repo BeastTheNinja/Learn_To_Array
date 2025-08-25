@@ -86,7 +86,7 @@ console.log(myYummies);
 
 
 // din kode her...
-
+myYummies.sort();
 
 
 console.log(myYummies);
@@ -97,6 +97,7 @@ console.log(myYummies);
 
 
 // din kode her...
+myYummies.reverse();
 
 console.log(myYummies);
 
