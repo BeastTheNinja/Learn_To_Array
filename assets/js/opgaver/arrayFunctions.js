@@ -23,11 +23,13 @@ console.log(myArray);
 // opgave 2 tilføj element4 til starten myArray
 
 // din kode her...
+myArray.unshift('element4');
 console.log(myArray);
 
 // opgave 2 fjern element4 igen
 
 // din kode her...
+myArray.shift();
 console.log(myArray);
 
 //.........................................................
@@ -41,8 +43,7 @@ let myVegetables = ['salat', 'blomkål', 'spidskål', 'agurk'];
  */
 
 // din kode her...
-
-myFruits.splice(2, 0, "mandarin", "fersken");
+myFruits.splice(2, 0, 'mandarin', 'fersken');
 
 console.log(myFruits);
 
